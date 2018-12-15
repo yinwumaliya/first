@@ -1,0 +1,164 @@
+body {
+    //background: darkgrey;
+    h1 {
+      color: rgb(233, 233, 233);
+    }
+    p{
+      color: rgb(226, 226, 226);
+      word-break:break-all 
+    }
+    .p1 {
+        padding-top:1px;
+    }
+    .bj{
+         background-color: rgb(33, 33, 36);/*大背景的颜色*/
+         width: 1024px;
+         height:100%;
+         margin-left:10%;
+         position: absolute;top:0;left:0;
+    }
+    li{
+
+      color: #fff
+    }
+    .div0{
+    background-color: #4d4d4d;/*hello world*/
+    width: 600px;
+    height: 400px;
+    position: absolute;top:60px;left:50px;
+    
+    .div00{
+      position: absolute;left:10px;
+    }
+    } 
+    .div1{
+        background-color: #4d4d4d;/*存在问题missing*/
+        width: 600px;
+        height: 200px;
+        position: absolute;top:410px;
+    }
+    .div1-1{     
+      background-color: #616161;
+      width: 580px;
+      height: 120px;
+      position: absolute;top:70px;
+      overflow:auto
+    }
+    .div1-1:hover{
+      background-color: #424242;
+    }
+    .div2{
+        background-color: #4d4d4d;/*fub*/
+        width: 300px;
+        height: 610px;
+        position: absolute;left:610px;top: 0px;
+    }
+    .zuokuang{
+        background-color: #616161;
+        width: 290px;
+        height: 130px;
+        margin-left: 5px;
+        margin-top: 0px;   
+        position: relative
+    }
+    .zuokuang:hover{
+        background-color: #424242;
+    }
+    .zuop{
+      position: relative;top: 50px;left: 110px;
+    }
+    /*.divtittl{
+        background-color: red;
+        width: 1024px;
+        height:40px;
+        position: absolute;top: 0px
+}
+*/
+    ul.lan1{/*设置导航栏的框框*/
+        background-color: #4d4d4d;
+        width: 984px;
+        height:34px;
+        position: absolute;top: 0px;
+        /*将框框的padding设置为零，不然会导致框框里的内容与框边缘有间隔*/
+        list-style-type: none;/* 去掉li前的点 */
+
+    }
+    .fd{
+        float: left;/*将li设置成做浮动，变为联动*/
+    }
+    .dingwei{
+        position: absolute;left:50px;
+    }
+    a.no1{
+        display: block;/*将a变成块状*/
+        width: 100px;/*设置块的宽度*/
+        height: 34px;/*设置块的长度*/
+        line-height: 34px;/*设置字体在块中的高度*/
+        font-family: Microsoft Yahei;
+        background-color: #616161;/*一级导航栏（块）背景的颜色*/
+        margin: 0px 0px;/*块里的高宽通过margin设置*/
+        color: #fff;
+        text-align: center;/*字体居中*/
+        text-decoration: none;/*去掉下划线*/
+        font-size: 15px;/*字体大小*/
+    }
+    a{
+      text-decoration: none;/*去掉下划线*/
+      color: rgb(221, 221, 221);
+    }
+    a:hover{
+        color: #ffffff;
+        background-color: #424242;/*鼠标放上去色块颜色的变化*/
+    }
+
+    .zuobtdingwei{
+       position: absolute;left:50px;
+    }
+    .zuowtdingwei{
+       position: absolute;left:20px;
+    }
+    .pic0{
+      position: absolute;left:5px;
+      width: 1014px;/*设置块的宽度*/
+      height: 606px;/*设置块的长度*/
+      background: url('./images/111.png') 0 0 no-repeat
+    }
+}
+.yansekuang{
+  background-color: rgb(104, 104, 104);
+  width: 600px;
+  height: 200px; 
+  position: absolute;
+}
+.yanse1{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.back{
+
+  width: 80px;
+  height: 25px;
+  position: absolute;top:350px;left: 250px;
+}
+#one{
+  background-color: red;
+  left: 80px;
+  top:50px;
+}
+#two{
+  background-color:rgb(194, 22, 22);
+  left: 190px;
+  top:50px;
+}
+#three{
+  background-color:red;
+  left: 300px;
+  top:50px;
+}
+#four{
+  background-color:red;
+  left: 410px;
+  top:50px;
+}
+
